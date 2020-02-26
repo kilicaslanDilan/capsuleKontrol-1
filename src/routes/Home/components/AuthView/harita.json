@@ -1,0 +1,78 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "capsule_konum" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "HARITA_ID": 1,
+         
+          "NAME": "ANKARA CAPSULE"
+          
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 32.85411 ,39.92077]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "HARITA_ID": 2,
+        
+          "NAME": "ANTALYA CAPSULE"
+          
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 30.70563 ,36.88414]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "HARITA_ID": 3,
+         
+          "NAME": "BURSA CAPSULE"
+          
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 29.063448 ,40.266864	]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "HARITA_ID": 4,
+          
+         
+          "NAME": "İSTANBUL CAPSULE"
+         
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 28.97696 , 41.00527]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 5,
+        
+          "NAME": "ESKİŞEHİR CAPSULE"
+        
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 30.520556 , 39.776667]
+        }
+      }
+      
+      
+    ]
+  }
+  

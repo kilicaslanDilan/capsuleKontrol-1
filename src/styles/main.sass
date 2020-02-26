@@ -1,0 +1,96 @@
+@import 'base.sass'
+
+@import '~bootstrap/scss/bootstrap.scss'
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html 
+  box-sizing: border-box
+
+
+html,
+body
+  margin: 0
+  padding: 0
+  height: 100%
+
+
+*,
+*:before,
+*:after 
+  box-sizing: inherit
+header
+  background-color:#5a50eb
+  .navbar-brand
+    color:#fff ! important
+  .nav-link
+    color:#fff ! important
+    &:hover
+      color:#02072e ! important
+
+  .page-layout__viewport 
+      padding-top: 4rem
+
+
+  .page-layout__nav-item--active 
+    font-weight: bold
+    text-decoration: underline
+
+  .navbar-collapse
+    flex-basis: 100%
+     
+    @media (min-width:992px)
+        flex-basis: auto
+    
+    
+  .navbar-toggler
+    border-width: 0px
+
+  
+
+  
+    
+
+.home-container
+  background-color:#e1e3f2
+  height: 700px
+  h4
+    background-color:#e1e3f2
+  form
+    width: 560px
+    margin: 150px auto 5px auto
+  p
+    text-align: center
+
+.sidebar ul 
+    list-style-type: none
+    
+.sidebar nav > ul > li > ul
+    position: relative
+   
+    display: none
+.sidebar nav > ul li
+    width : 100px
+    position: relative
+    background-color: none
+    text-align: center
+.sidebar nav ul li a
+    text-decoration: none
+    color:white
+    display: block
+.sidebar nav ul li a:hover
+    
+.sidebar nav > ul > li:hover >ul
+    display: block
+    
+   
+.sidebar a 
+    color: white
+.sidebar a:hover
+    color: gray
+.sidebar li 
+   
+
+
+
+
