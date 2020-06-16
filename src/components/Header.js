@@ -1,39 +1,65 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router';
-class Header extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            isNavOpen: false
+import { FormattedMessage, FormattedDate, FormattedNumber } from 'react-intl';
+import defaultMessage from '../routes/Home/components/AuthView/messages';
+import { IntlProvider } from 'react-intl';
+import AuthView from "../routes/Home/components/AuthView"
+import Turkce from '../routes/Home/translations/tr.json';
+import English from '../routes/Home/translations/en.json';
+export default function Header(props) {
+    const [locale, setLocale] = useState('tr');
+    const [lang, setLang] = useState(Turkce);
+    const changeLang = getLang => {
+        setLocale(getLang);
+        switch (getLang) {
+            case 'tr':
+                setLang(Turkce);
+                break;
+            case 'en':
+                setLang(English);
+                break;
+            default:
+                setLang(Turkce);
+
+
         }
 
     }
-    buttonClicked() {
-        this.setState({
-            isNavOpen: !this.state.isNavOpen
-        })
 
-    }
-    render() {
-        console.log("RENDERING");
-        return (
-            <body>
+
+
+    return (
+        <IntlProvider locale={locale} messages={lang}>
+            <div className="home-container" style={{ marginTop: "50px" }} >
+
                 <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow" style={{ width: "100%", height: "50px" }}>
-                    <a className="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Cargom Express</a>
-                    <input className="form-control mr-sm-2" type="search" placeholder="Ara" aria-label="Search" />
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Ara</button>
-                    <ul className="navbar-nav px-3 " style={{ paddingLeft: "100px" }} >
-                        <li className="nav-item ">
-                            <a className="nav-link" href="#" >Giriş</a>
-                        </li>
-                    </ul>
+                    <a className="navbar-brand col-sm-1 col-md-1 mr-0" href="#">Cargom Express</a>
+
+                    <div style={{ }}>
+                        <button style={{}} onClick={() => changeLang('en')}>EN</button>
+                        <button style={{}} onClick={() => changeLang('tr')}>TR</button>
+
+                    </div>
+
                 </nav>
-                
-            </body>
-        )
 
-    }
 
-}
 
-export default Header;
+                <AuthView />
+            </div>
+
+
+
+
+
+        </IntlProvider>
+
+
+
+
+    )
+
+
+
+};
+

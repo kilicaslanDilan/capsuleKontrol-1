@@ -1,0 +1,99 @@
+
+
+
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "capsule_konum" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "ARAC_ID": 1,
+          "PLAKA_NO": "ANKARA ",
+          "KONUM": "ANKARA AŞTİ",
+          "SÜRÜCÜ_ADI": "-",
+          "DAGITIM_BOLGESI": "-"
+        
+
+          
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 32.85411 ,39.92077]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "ARAC_ID": 2,
+          "PLAKA_NO": "ANTALYA",
+          "KONUM": "KEPEZ",
+          "SÜRÜCÜ_ADI": "-",
+          "DAGITIM_BOLGESI": "-"
+          
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 30.70563 ,36.88414]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "ARAC_ID": 3,
+          "PLAKA_NO": "BURSA",
+          "KONUM": "BURSA",
+          "SÜRÜCÜ_ADI": "-",
+          "DAGITIM_BOLGESI": "-"
+         
+  
+          
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 29.063448 ,40.266864	]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "ARAC_ID": 4,
+          "PLAKA_NO": "BALIKESİR",
+          "KONUM": "BALIKESİR",
+          "SÜRÜCÜ_ADI": "-",
+          "DAGITIM_BOLGESI": "-"
+          
+        
+          
+         
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 28.97696 , 41.00527]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "ARAC_ID": 5,
+          "PLAKA_NO": "İSTANBUL",
+          "KONUM": "İSTANBUL",
+          "SÜRÜCÜ_ADI": "-",
+          "DAGITIM_BOLGESI": "-"
+        
+         
+        
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ 30.520556 , 39.776667]
+        }
+      }
+      
+      
+    ]
+  }
+  

@@ -9,8 +9,15 @@
         "type": "Feature",
         "properties": {
           "HARITA_ID": 1,
-         
-          "NAME": "ANKARA CAPSULE"
+        
+          "CAPSULE_SUBE": "ANKARA ",
+          "ADRES": " AŞTİ",
+          "CALISMA_DURUMU": "AKTİF",
+          "RESIM": "Capsule-2.3.png",
+          "ARIZA_DURUMU":"YOK",
+          "SONKUTUVERILMESAATI":"",
+          "KAMERA" : ""
+
           
         },
         "geometry": {
@@ -23,7 +30,13 @@
         "properties": {
           "HARITA_ID": 2,
         
-          "NAME": "ANTALYA CAPSULE"
+         
+          "CAPSULE_SUBE": "ANTALYA",
+          "ADRES":"KEPEZ",
+          "CALISMA_DURUMU": "PASİF",
+          "ARIZA_DURUMU":"YOK",
+          "SONKUTUVERILMESAATI":"",
+          "DOLULUK_ORANI":""
           
         },
         "geometry": {
@@ -36,7 +49,14 @@
         "properties": {
           "HARITA_ID": 3,
          
-          "NAME": "BURSA CAPSULE"
+         
+          "CAPSULE_SUBE": "BURSA",
+          "ADRES":"BURSA",
+          "CALISMA_DURUMU": "AKTİF",
+          "RESIM": "Capsule-2.2.png",
+          "ARIZA_DURUMU":"YOK",
+          "SONKUTUVERILMESAATI":"",
+          "DOLULUK_ORANI":""
           
         },
         "geometry": {
@@ -50,7 +70,14 @@
           "HARITA_ID": 4,
           
          
-          "NAME": "İSTANBUL CAPSULE"
+         
+          "CAPSULE_SUBE": "İSTANBUL",
+          "ADRES":"İSTANBUL",
+          "CALISMA_DURUMU": "AKTİF",
+          "RESIM": "Capsule-2.2.png",
+          "ARIZA_DURUMU":"YOK",
+          "SONKUTUVERILMESAATI":"",
+          "DOLULUK_ORANI":""
          
         },
         "geometry": {
@@ -58,19 +85,46 @@
           "coordinates": [ 28.97696 , 41.00527]
         }
       },
+     
       {
         "type": "Feature",
         "properties": {
-          "PARK_ID": 5,
+          "HARITA_ID": 5,
         
-          "NAME": "ESKİŞEHİR CAPSULE"
+          "CAPSULE_SUBE": "ESKİŞEHİR ",
+          "ADRES":"ESKİŞEHİR",
+          "CALISMA_DURUMU": "AKTİF",
+          "RESIM": "Capsule-2.2.png",
+          "ARIZA_DURUMU":"YOK",
+          "SONKUTUVERILMESAATI":"",
+          "DOLULUK_ORANI":""
         
         },
         "geometry": {
           "type": "Point",
           "coordinates": [ 30.520556 , 39.776667]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "HARITA_ID": 6,
+        
+          "CAPSULE_SUBE": "ADANA ",
+          "ADRES":"ADANA",
+          "CALISMA_DURUMU": "AKTİF",
+          "RESIM": "Capsule-2.2.png",
+          "ARIZA_DURUMU":"YOK",
+          "SONKUTUVERILMESAATI":"",
+          "DOLULUK_ORANI":""
+        
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [  35.32889,37.00167]
+        }
       }
+      
       
       
     ]
