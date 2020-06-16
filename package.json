@@ -122,7 +122,7 @@
   "bugs": {
     "url": "https://github.com/davezuko/react-redux-starter-kit/issues"
   },
-  "homepage": "https://github.com/davezuko/react-redux-starter-kit#readme",
+  "homepage": "",
   "directories": {
     "test": "tests"
   },
